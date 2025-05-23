@@ -1252,11 +1252,11 @@ local function ButtonFrame(Instance, Title, Description, HolderSize)
 	local TitleL = InsertTheme(Create("TextLabel", {
 		Font = Enum.Font.GothamMedium,
 		TextColor3 = Theme["Color Text"],
-		Size = UDim2.new(1, -20),
+		Size = UDim2.new(1, -10),
 		AutomaticSize = "Y",
 		Position = UDim2.new(0, 0, 0.5),
 		AnchorPoint = Vector2.new(0, 0.5),
-		BackgroundTransparency = 0,
+		BackgroundTransparency = 1,
 		TextTruncate = "AtEnd",
 		TextSize = 10,
 		TextXAlignment = "Left",
