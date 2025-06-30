@@ -6,7 +6,7 @@ local Configs_HUB = {
   Cor_DarkText = Color3.fromRGB(240, 240, 240),
   Corner_Radius = UDim.new(0, 20), 
   Text_Font = Enum.Font.FredokaOne,
-  BackgroundTransparency = 0.8
+  BackgroundTransparency = 0.5
 }
 local CoreGui = game:GetService("CoreGui")
 local TweenService = game:GetService("TweenService")
